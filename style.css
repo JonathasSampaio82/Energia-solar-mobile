@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 10px;
+}
+#container {
+    display: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: url(./img/foto.png);
+    background-size: cover;
+}
+.top1 {
+    padding: 1vh;
+    color: black;
+}
+
+.top1:hover {
+    color: #ffffff;
+}
+
+.top2 {
+    display: none;
+}
+
+.tudo {
+    margin: 2vh;
+}
+
+h1 {
+    display: flex;
+    margin-top: 20vh;
+    text-shadow: 5px 5px 10px #ffffff;
+    text-align: center;
+}
+
+.text-t {
+    margin-top: 80px;
+}
+
+.whatsapp-link {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+}
+
+.fa-whatsapp {
+    margin-top: 16px;
+}
+
+textarea {
+    display: block;
+    background: #f9f9f9;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    height: 100px;
+    width: 352px;
+    margin-bottom: 20px;
+}
+
+input {
+    display: block;
+    background: #f9f9f9;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    height: 50px;
+    width: 352px;
+    margin-bottom: 20px;
+}
+
+form {
+
+    background: #ffffff;
+    padding: 10px;
+    position: fixed;
+    top: 10%;
+    left: 10%;
+    transform: translate(-10%, -10%);
+    border-radius: 2px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+button {
+    background: green;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 160px;
+    cursor: pointer;
+    margin-top: 111px;
+}
+
+button:hover {
+    opacity: 0.8;
+
+}
+.voltar {
+    background: gray;
+}
+div {
+    transition: opacity 1s;
+}
+
+@media (min-width:600px) {
+    h1 {
+        text-align: center;
+        font-weight: 10px;
+        font-size: 10vh;
+        margin: 20vh;
+        text-shadow: 0 0 0.2em #fff, 0 0 0.2em #fff,
+            0 0 0.2em #fff
+    }
+
+    .top1 {
+        font-size: 30px;
+    }
+
+    .whatsapp-link {
+        position: fixed;
+        width: 90px;
+        height: 90px;
+        bottom: 70px;
+        right: 70px;
+        background-color: #25d366;
+        color: #fff;
+        border-radius: 80px;
+        text-align: center;
+        font-size: 60px;
+        box-shadow: 1px 1px 2px #888;
+        z-index: 1000;
+    }
+
+    .text-t {
+        margin-right: 500px;
+        margin-top: 40px;
+        color: #0d006c;
+        font-size: 40px;
+    }
+
+
+    
+}
