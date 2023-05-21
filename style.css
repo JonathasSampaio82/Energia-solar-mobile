@@ -3,9 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     margin: 10px;
 }
+
 #container {
     display: fixed;
     width: 100vw;
@@ -13,6 +15,7 @@ body {
     background: url(./img/foto.png);
     background-size: cover;
 }
+
 .top1 {
     padding: 1vh;
     color: black;
@@ -81,7 +84,6 @@ input {
 }
 
 form {
-
     background: #ffffff;
     padding: 10px;
     position: fixed;
@@ -94,26 +96,28 @@ form {
 }
 
 button {
-    background: green;
+    background:green;
     border: none;
     padding: 10px;
     border-radius: 5px;
     font-weight: bold;
     width: 160px;
     cursor: pointer;
-    margin-top: 111px;
+    margin-top: 10px;
+}
+button:hover{
+    opacity: 0.8;   
 }
 
-button:hover {
-    opacity: 0.8;
-
-}
 .voltar {
     background: gray;
 }
-div {
+
+div{
     transition: opacity 1s;
 }
+
+
 
 @media (min-width:600px) {
     h1 {
@@ -147,10 +151,34 @@ div {
     .text-t {
         margin-right: 500px;
         margin-top: 40px;
-        color: #0d006c;
+        color: #000500;
         font-size: 40px;
     }
 
+    button {
+        background: green;
+        border: none;
+        padding: 15px;
+        border-radius: 8px;
+        font-weight: bold;
+        width: 180px;
+        cursor: pointer;
+        margin-top: 11px;
+    }
+
+    button:hover {
+        opacity: 0.8;
+    }
 
     
-}
+form { 
+    background: #ffffff;
+    padding: 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 1s;
+    }

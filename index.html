@@ -14,22 +14,23 @@
     <div class="tudo">
 
         <header">
-            <div>
-                <a class="top1" href="https://instagram.com/solarmuitaluz?igshid=YmMyMTA2M2Y="
-                    target="_blank">SERVIÇOS</a>
-                <a class="top1" href="https://instagram.com/solarmuitaluz?igshid=YmMyMTA2M2Y="
-                    target="_blank">PROJETOS</a>
-                <a class="top2" href="https://instagram.com/solarmuitaluz?igshid=YmMyMTA2M2Y="
-                    target="_blank">CONTATOS</a>
-
-                <a class="top1" href="https://instagram.com/solarmuitaluz?igshid=YmMyMTA2M2Y="
-                    target="_blank">INSTAGRAM</a>
-                <a class="top2" href="https://instagram.com/solarmuitaluz?igshid=YmMyMTA2M2Y="
-                    target="_blank">ORCAMENTO</a>
-            </div>
-
-            </header>
-
+        <div>
+            <select name="MenuBug" onchange="location = this.value;" style="color:#fff; font-size: 12pt; background:#1148e0" size=1>
+                <option disabled selected/>PROJETOS
+                 <option value="./img/comercio.jpg">Comercios</option>
+                 <option value="./img/Foto-casas.jpg">Casas</option>
+                 <option value="./img/empresa.jpg">Empresas</option>
+                </select>
+            
+                <select name="MenuFire" onchange="location = this.value;" style="color:#fff; font-size: 12pt; background:#1148e0" size=1>
+                <option disabled selected/>CONTATOS
+                 <option value="https://web.whatsapp.com/send?phone=5513997994495" target="_blank">Whatsapp</option>
+                 <option value="mailto:solarmuitaluz@gmail.com">Email</option>
+                 <option  value="https://instagram.com/solarmuitaluz?igshid=YmMyMTA2M2Y="
+                 target="_blank">Instagram</option>
+                </select>
+        </div>
+        </header>
             <h1>Energia Solar Muita Luz</h1>
             <p class="text-t">Reduza sua conta de Luz em até 95% <br>
                 Tenha em sua casa uma fonte de energia renovável, <br>
@@ -58,8 +59,11 @@ Um sistema solar fotovoltaico instalado em uma residência se paga
     <button onclick="fechar()" type="button" class="voltar">Voltar</button>
 </form>
 
-</body>
+<div class="screen-two">
 
+</div>
+
+</body>
 
 <script>
     function abrir() {
